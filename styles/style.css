@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.btn__primary {
+  background: white;
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 26px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.section__description {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main {
+  max-width: 1172px;
+  margin: 0 auto;
+}
+
+/* Main Style Start */
+header {
+  background: url("../images/banner/banner3.png");
+  text-align: right;
+  padding: 230px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+}
+
+.header__title {
+  color: white;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.contact {
+  margin-top: 30px;
+}
